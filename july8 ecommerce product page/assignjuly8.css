@@ -1,0 +1,256 @@
+ .top{
+            width: 100%;
+            height: 80px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .zay{
+            font-size: 55px;
+            width: 20%;
+            color: green;
+            text-align: center;
+            
+        }
+        .home{
+            width: 55%;
+        }
+        .home ul{
+            text-align: start;
+            display: flex;
+          
+            list-style: none;
+        }
+        .home ul li{
+            
+            padding: 6px 55px;
+        }
+        .icon{
+            width: 25%;
+            text-align: center;
+            
+            padding-top: 25px;
+        }
+        .box1{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            background-color: rgb(226, 226, 226);
+        }
+        .left{
+            width: 40px;
+            height: 100%;
+            font-size:40px;
+            /* text-align: center; */
+            /* align-items: center; */
+            /* margin: auto; */
+            padding:220px 10px ;
+        }
+        .right{
+            width: 40px;
+            height: 100%;
+            font-size: 40px;
+            padding: 220px 10px;
+        }
+        .text1{
+            
+            width: 40%;
+            padding: 120px 200px 120px 100px;
+        }
+        .text1 h1{
+            color: grey;
+        }
+        .img1{
+            padding: 60px 100px 0px 35px;
+           width: 40%;
+           
+        }
+
+        .box2{
+            width: 100%;
+            height: 650px;
+            
+            display: flex;
+            flex-direction: column;
+        }
+        .text2{
+            height: 120px;
+            text-align: center;
+           
+            font-size: 40px;
+            color: grey;
+            padding-top: 30px;
+        }
+        
+        .text2 p{
+            font-size:medium;
+            color:black;
+        } 
+        .img2{
+            display: flex;
+            
+            padding: 60px 28px 40px 28px;
+        } 
+        .watch{
+            flex-grow: 1;
+            text-align: center;
+        }
+        .watch img{
+            height: 250px;
+            width: 250px;
+            border-radius:50% ;
+        }
+        
+        .shoe{
+            flex-grow: 1;
+           text-align: center;
+        }
+        .shoe img{
+            
+            height: 250px;
+            width: 250px;
+            border-radius:50% ;
+        }
+        .access{
+            flex-grow: 1;
+            text-align: center;
+        }
+        .access img{
+            
+            height: 250px;
+            width: 250px;
+            border-radius:50% ;
+        }  
+        .img2 button{
+            width: 80px;
+            height: 30px;
+            background-color: #38a44d;
+            color: aliceblue;
+            border: 1px solid green;
+            border-radius: 5px;
+        }
+
+        .box3{
+            background-color: rgb(225, 227, 251);
+            width: 100%;
+            height: 750px;
+        }
+        .text3{
+            height: 120px;
+            text-align: center;
+           
+            font-size: 40px;
+            color: grey;
+            padding-top: 40px;
+        }
+        .text3 p{
+             font-size:medium;
+             color: #4e4e4e;
+        }
+        .img3{
+            display: flex;
+            width: 85%;
+            margin: auto;
+            justify-content: space-between;
+        }
+        .gym{
+            width: 330px;
+            border: 1px solid rgb(150, 149, 149);
+            background-color: white;
+            
+        }
+        .cloud{
+            width: 330px;
+            border: 1px solid rgb(150, 149, 149);
+            background-color: white;
+        }
+        .summer{
+            width: 330px;
+            border: 1px solid rgb(150, 149, 149);
+            background-color: white;
+        }
+        .img3 img{
+            width: 100%;
+            height: 200px;
+        }
+        .img3 i{
+            font-size: 13px;
+            margin-top: 10px;
+        }
+        .img3 p{
+            font-size: 30px;
+        }
+        .gtext{
+            margin: 0px 0px 30px 20px;
+        }
+        .img3 .review{
+            font-size: 18px; 
+            color:grey;
+        }
+        .box4{
+            width: 100%;
+            height: 550px;
+            background-color: rgb(32, 32, 41);
+        }
+        .up{
+            margin: auto;
+            width: 80%;
+            height:72% ;
+            display: flex;
+            color:rgb(214, 225, 234);
+        }
+        .shop{width: 33.33%;
+            
+        }
+        .shop p{
+            font-size: 35px;
+            color: #38a44d;
+            margin-bottom: 20px;
+            margin-top: 40px;
+        }
+        .products{
+            width: 33.33%;
+        }
+        .products p{
+            font-size: 35px;
+             margin-bottom: 20px;
+            margin-top: 40px;
+        }
+        .info{
+            width: 33.33%;
+        }
+        .info p{
+            font-size: 35px;
+             margin-bottom: 20px;
+            margin-top: 40px;
+        }
+        
+        .down{
+             margin: auto;
+            width: 80%;
+            display: flex;
+            color:rgb(214, 225, 234);
+        }
+        .social{
+            width: 50%;
+            margin-top: 40px;
+            font-size: 20px;
+        }
+        .email{
+            width: 50%;
+            margin-top: 40px;
+            padding-left: 445px  ;
+            /* color: rgb(32, 32, 41); */
+             /* color:rgb(133, 138, 142); */
+        }
+        .email input{
+            background-color:rgb(32, 32, 41);
+            height: 20px;
+        }
+        .email button{
+            height: 28px;
+            width: 110px;
+            background-color: #38a44d;
+            color:rgb(214, 225, 234) ;
+        }
+        
